@@ -1,0 +1,105 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{fontspec}
+\usepackage{multicol}
+
+\usepackage{listings}
+
+
+% Set Arial font
+\setmainfont{Arial}
+\renewcommand{\baselinestretch}{1.5} % Line spacing
+\renewcommand{\familydefault}{\sfdefault}
+\setlength{\parindent}{0pt}
+
+% Page size & margins
+\usepackage[a4paper, margin=1in]
+
+% Define chapter formatting
+\titleformat{\section}
+  {\normalfont\bfseries\Large\centering\underline} % Chapter title in bold, centered, underlined
+  {\thesection}{1em}{}
+
+% Define code formatting (Console font)
+\lstset{
+    basicstyle=\ttfamily,
+    breaklines=true,
+    frame=single
+}
+
+% Page numbering
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+
+\begin{document}
+
+% Page 1: Name, ID, Reg Number (Two Columns)
+\begin{titlepage}
+\begin{center}
+    {\Huge Team Members}
+\end{center}
+\begin{multicols}{2}
+    \textbf{Name 1} \\ ID 12345 \\ Reg No: 67890 \\[1cm]
+    \textbf{Name 2} \\ ID 12346 \\ Reg No: 67891 \\[1cm]
+    \textbf{Name 3} \\ ID 12347 \\ Reg No: 67892 \\[1cm]
+    \textbf{Name 4} \\ ID 12348 \\ Reg No: 67893 \\[1cm]
+    \textbf{Name 5} \\ ID 12349 \\ Reg No: 67894 \\[1cm]
+    \textbf{Name 6} \\ ID 12350 \\ Reg No: 67895
+\end{multicols}
+\end{titlepage}
+
+% Page 2: Abstract
+\newpage
+\begin{center}
+    {\Huge Abstract}
+\end{center}
+\noindent
+Write your abstract here
+
+% Page 3: Contents
+\newpage
+\begin{center}
+    {\Huge Contents}
+\end{center}
+\tableofcontents
+
+\newpage
+
+% Example Chapter 1
+\section{Chapter Title 1}
+\noindent
+Text of Chapter 
+
+\subsection{Subsection Title 1.1}
+\noindent
+Text for Subsection 
+
+\subsection{Subsection Title 1.2}
+\noindent
+Text for Subsection 
+
+\newpage
+
+% Example Chapter 2
+\section{Chapter Title 2}
+\noindent
+Text of Chapter 2
+
+\newpage
+
+% Conclusion Section
+\section{Conclusion}
+\noindent
+Text for Conclusion
+
+% Appendix
+\newpage
+\section{Appendix}
+\noindent
+Below is the code used for the solutions:
+
+% \lstinputlisting[language=Python]{code.py} % Change language and file name as required.
+
+\end{document}

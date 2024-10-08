@@ -1,0 +1,151 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{lipsum} % For placeholder text
+\usepackage{courier} % For code font
+
+\geometry{
+	a4paper,
+	total={210mm,297mm},
+	left=25mm,
+	right=25mm,
+	top=20mm,
+	bottom=20mm,
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\thepage}
+\fancyhead[R]{Your Name}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\begin{document}
+	
+	\title{Unga vunga}
+	\author{Trust me bruh!}
+	\today
+	\maketitle
+	
+	\section*{\center Submitted By}
+	
+	\begin{multicols}{2}
+	\centering
+	\hspace{10cm}
+		\begin{tabular}{ll}
+		Shishir Ahmed Saikat \\
+		ID: 12104006 \\
+		Reg: 12104006 \\ \\\\ 
+		
+		
+		Moktadir Siyam \\
+		ID: 12104006 \\
+		Reg: 12104006 \\ \\\\ 
+		
+		Moktadir Siyam \\
+		ID: 12104006 \\
+		Reg: 12104006 \\ \\\\ 
+		
+	\end{tabular}
+	
+	\hspace{10cm}
+	 \begin{tabular}{ll}
+	Shishir Ahmed Saikat \\
+	ID: 12104006 \\
+	Reg: 12104006 \\ \\\\ 
+	
+	
+	Moktadir Siyam \\
+	ID: 12104006 \\
+	Reg: 12104006 \\ \\\\ 
+	
+	Moktadir Siyam \\
+	ID: 12104006 \\
+	Reg: 12104006 \\ \\\\ 
+	
+\end{tabular}
+\end{multicols}
+	
+	\begin{tabular}{l|l}
+		Name & ID \\ \hline
+		Student 1 & 12345 \\
+		Student 2 & 23456 \\
+		Student 3 & 34567 \\
+		Student 4 & 45678 \\
+		Student 5 & 56789 \\
+		Student 6 & 67890 \\
+	\end{tabular}
+	
+	\newpage
+	
+	\section*{Page 2: Abstract}
+	
+	\lipsum[1-2]
+	
+	\newpage
+	
+	\section*{Page 3: Contents}
+	
+	
+	\tableofcontents
+	
+	\section{Chapter 1: Introduction}
+	
+	\subsection{Subsection 1}
+	
+	\lipsum[3]
+	
+	\subsection{Subsection 2}
+	
+	\lipsum[4]
+	
+	\section{Chapter 2: Methodology}
+	
+	\subsection{Subsection 1}
+	
+	\lipsum[5]
+	
+	\subsection{Subsection 2}
+	
+	\lipsum[6]
+	
+	\section{Chapter 3: Results}
+	
+	\subsection{Subsection 1}
+	
+	\lipsum[7]
+	
+	\subsection{Subsection 2}
+	
+	\lipsum[8]
+	
+	\section{Chapter 4: Discussion}
+	
+	\lipsum[9]
+	
+	\section{Chapter 5: Conclusions}
+	
+	\lipsum[10]
+	
+	\appendix
+	
+	\section{Appendix A: Code}
+	
+	\begin{verbatim}
+		# Python code example
+		def my_function(x):
+		return x**2
+		
+		print(my_function(5))
+	\end{verbatim}
+	
+\end{document}

@@ -2,10 +2,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
-%\usepackage{titlesec}
 \usepackage{amsfonts}
 \usepackage{mathptmx}
-\usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{multicol}
@@ -14,7 +12,6 @@
 \usepackage[utf8]{inputenc}  
 \usepackage{amsmath}         % Adds more math symbols and functionality
 \usepackage{amssymb}         % Provides additional math symbols
-
 \usepackage{tabularx}
 \usepackage{lipsum} % For placeholder text
 \usepackage{courier} % For code font
@@ -444,12 +441,13 @@
 	\newpage\subsection{Example with Visualization} 
 	
 	
-	\textbf{\underline{Example 1:}} \\ \\
+	\textbf{\underline{Example 1:}}  Find the root of $x^{3}-6x+41 = 0$ by Newton's method correct to six decimal places. \\ \\
 	Let \(f(x)\) =$ x^{3}-6x+4;$ \\ \\
 	  \(f(0)\)=4=+ve; \(f(1)\)=-1=-ve\\
 	
-	  a root lies between 0 and 1 \\ \\
-	  This root is nearer to 1. Take $\alpha_{0}$ = 1 \\
+	  $\therefore$ root lies between 0 and 1 \\ \\
+	  
+	  This root is nearer to 1. Take $x_{0}$ = 1 \\
 	  \(f'(x)\) = $3x^{2}-6$ \\
 	 
 	$x - \frac{f(x)}{f'(x)} = x-\frac{(3x^{3} - 6x + 4)}{3x^2 - 6}$ 
@@ -461,17 +459,17 @@
 		
 		
 	%\begin{tabularx}{\textwidth}{|c|X|X|X|X|}
-	\begin{tabularx}{\textwidth}{|c|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|} 
-		\hline		
-		n & $x_n$ & $x_{n+1}$ \\		
+\begin{tabularx}{\textwidth}{|c|>{\centering\arraybackslash}X|>{\centering\arraybackslash}	X|>{\centering\arraybackslash}X|}
 		\hline
-		1 & 1 & 0.66666 \\
+		Iteration & $x_n$ & $x_{n+1}$ \\
 		\hline
-		2 & 0.66666 & 0.730158 \\
+		1 & 1 & 0.66667 \\
 		\hline
-		3 & 0.730158 & 0.73204903 \\
+		2 & 0.66667 & 0.73016 \\
 		\hline
-		4 & 0.73204903 & 0.73205081 \\
+		3 & 0.73016 & 0.73205 \\
+		\hline
+		4 & 0.73205 & 0.73205 \\
 		\hline
 	\end{tabularx}\\
 	 
@@ -481,7 +479,7 @@
 	
 		\begin{figure}[h]
 		\centering
-		\includegraphics[width=0.7\textwidth]{Nr_fig_1.png} % Adjust width or height as needed
+		\includegraphics[width=0.7\textwidth]{Nr_ex01.png} % Adjust width or height as needed
 		\caption{Graph of $x^{3}-6x+4$}
 		\label{fig:your_label_here}
 		\end{figure} 
@@ -520,7 +518,7 @@
 	
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=0.6\textwidth]{Nr_fig_2.png} % Adjust width or height as needed
+		\includegraphics[width=0.9\textwidth]{Nr_ex02.png} % Adjust width or height as needed
 		\caption{Graph of $3x - cosx -1$}
 		\label{x}
 	\end{figure}
@@ -694,36 +692,32 @@
 	%\begin{tabularx}{\textwidth}{|c|X|X|X|X|}
 	\begin{tabularx}{\textwidth}{|c|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|} 
 		\hline
-		n & $x_n$ & $\phi(x_n)$ \\
+		Iteration & $x_n$ & $\phi(x_n)$ \\
 		\hline
 		1 & $\pi$/2 & 1.5 \\
 		\hline
-		2 & 1.5 & 1.535369 \\
+		2 & 1.5 & 1.5354 \\
 		\hline
-		3 & 1.535369 & 1.517710 \\
+		3 & 1.5354 & 1.5177 \\
 		\hline
-		4 & 1.517710 & 1.526531 \\
+		4 & 1.5177 & 1.5265 \\
 		\hline
-		5 & 1.526531 & 1.522126 \\
+		5 & 1.5265 & 1.5221 \\
 		\hline
-		6 & 1.522126 & 1.524326 \\
+		6 & 1.5221 & 1.5243 \\
 		\hline
-		7 & 1.524326 & 1.523227 \\
+		7 & 1.5243 & 1.5232 \\
 		\hline
-		8 & 1.523776 & 1.523502 \\
+		8 & 1.5232 & 1.5237 \\
 		\hline
-		9 & 1.523502 & 1.523639 \\
-		\hline
-		10 & 1.523639 & 1.523570 \\
-		\hline
-	\end{tabularx}\vspace{1cm}
+	\end{tabularx}\vspace{1cm}\\\\
 	
-	Due to repetition of of $n_8 , n_9, n_{10}$ , we stop work. Hence the root is 1.523 correct to three decimal places.
+	Due to repetition of of $x_7 , x_8$ , we stop work. Hence the root is 1.523 correct to three decimal places.
 	\\ \\ \\
 	
 	 \begin{figure}[h]
 		\centering
-		\includegraphics[width=0.9\textwidth]{iterative_ex2.png} % Adjust width or height as needed
+		\includegraphics[width=0.9\textwidth]{Iteration_ex01.png} % Adjust width or height as needed
 		\caption{Graph of $2x = cos x + 3$}
 		\label{fig:your_label_here}
 	\end{figure} 
@@ -779,7 +773,7 @@
 	
 	 \begin{figure}[h]
 	 	\centering
-	 	\includegraphics[width=0.9\textwidth]{iterative_ex1.jpg} % Adjust width or height as needed
+	 	\includegraphics[width=1.1\textwidth]{Iterative_ex02.png} % Adjust width or height as needed
 	 	\caption{Graph of $x^3-2x^2-4=0$}
 	 	\label{fig:your_label_here}
 	 \end{figure} 
@@ -895,6 +889,7 @@
 	
 	Overall, while the Regula Falsi method is effective for many problems, careful consideration of its limitations is essential.
 	\subsection{Example with Visualization}
+	
 		\textbf{\underline{Example 1:}} Solve for real root of the equation $x^3 - 5x + 3 = 0$ by Regula Falsi method. \\
 		
 		\textbf{Solution:} Let \(f(x)\) = $x^3$ - 5x + 3 \\ \\
@@ -905,34 +900,36 @@
 		x_0 = \frac{af(b)-bf(a)}{f(b)-f(a)} = \frac{1 - 2(-1)}{1+1} = 3/2 =1.5
 		\]
 		Now \(f(x_0)\) = f(1.5) = -1.125 < 0 \\
-		The root lies between 1.5 and 2
+		The root lies between 1.5 and 2\\
+		Proceeding the way the following table is obtained, \\
 		
-		\[
-		x_1 = \frac{1*1.5 - 2(-1.125)}{1+1.125} = 1.765
-		\]
-		Now \(f(x_1)\) = f(1.765) = -0.327 < 0 \\
-		The root lies between 1.765 and 2
+		\begin{tabularx}{\textwidth}{|c|>{\centering\arraybackslash}X|>{\centering\arraybackslash}	X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
+			\hline
+			Iteration & a & b & $x_n$ & $f(x_n)$ \\
+			\hline
+			1 & 1 & 2 & 1.5 & -1.125 \\
+			\hline
+			2 & 1.5 & 2 & 1.76471 & -0.32791 \\
+			\hline
+			3 & 1.76471 & 2 & 1.82281 & -0.05752 \\
+			\hline
+			4 & 1.82281 & 2 & 1.83245 & -0.00913 \\
+			\hline
+			5 & 1.83245 & 2 & 1.83396 & -0.00143 \\
+			\hline
+			6 & 1.83396 & 2 & 1.83420 & -0.00022 \\
+			\hline
+			7 & 1.83420 & 2 & 1.83424 & -0.00003 \\
+			\hline
+		\end{tabularx}\\
 		
-		\[
-		x_2 = \frac{1*1.765 - 2(0.327)}{1+0.327} =1.823
-		\]
-		Now \(f(x_2)\) = f(1.825) = -0.0572 < 0 \\
-		The root lies between 1.823 and 2
 		
-		\[
-		x_3 = \frac{1*1.823 - 2(-0.0572)}{1+0.0572} =1.8325
-		\]
-		Now \(f(x_3)\) = f(1.8325) = -0.00886 < 0 \\
-		The root lies between 1.8325 and 2
 		
-		\[
-		x_4 = \frac{1*1.832 - 2(-0.00886)}{1+0.00886} =1.8325
-		\]
-		$\therefore x_3 = x_4 = 1.83$ (corrected upto 2 places of decimals)
+		$\therefore x_6 = x_7 = 1.8342$ (corrected upto 4 places of decimals)
 		
 		\begin{figure}[h]
 			\centering
-			\includegraphics[width=0.9\textwidth]{regula_falsi_ex1.png} % Adjust width or height as needed
+			\includegraphics[width=1.2\textwidth]{False_ex01.png} % Adjust width or height as needed
 			\caption{Graph of $x^3 - 5x + 3 = 0$}
 			\label{fig:your_label_here}
 		\end{figure} 
@@ -941,83 +938,269 @@
 			
 			\textbf{\underline{Example 2:}} Find a root of the equation $x^3-3x-5=0$ by the method of false position. \\
 			
-			\textbf{\underline{Solution:}}\\ Let,
-			f(x)=$x^3-3x-5$\\
-			Since f(2)=-3<0 and f(2)=13>0 \\
-			The root lies between 2 and 3 \\
+			\textbf{\underline{Solution:}}\\ \\Let,
+			f(x)=$x^3-3x-5$\\\\
+			Since f(2)=-3<0 and f(3)=13>0 \\\\
+			The root lies between 2 and 3 \\\\
 			
-			
-			
-			$x_0=\frac{af(b)-bf(a)}{f(b)-f(a)}$
-			=$\frac{2\times13-3\times(-3)}{13+3}$=2.1875\\
-
-			Now, $f(x_0) = f(2.1875) = -1.095 < 0$.
-			
-			Since $f(2.1875) < 0$ and $f(3) > 0$, the root lies between $2.1875$ and $3$.
 			
 			\[
-			x_1 = \frac{(2.1875 \cdot 13 - 3 \cdot (-1.095))}{13 + 1.095} = 2.2506
+			x_0=\frac{af(b)-bf(a)}{f(b)-f(a)}
+			=\frac{2\times13-3\times(-3)}{13+3}=2.1875\\
 			\]
 			
-			Now, $f(x_1) = f(2.2506) = -0.3521 < 0$.
+			Now, $f(x_0) = f(2.1875) = -1.095 < 0$.\\
 			
-			Since $f(2.2506) < 0$ and $f(3) > 0$, the root lies between $2.2506$ and $3$.
+			Since $f(2.1875) < 0$ and $f(3) > 0$, the root lies between $2.1875$ and $3$.\\
 			
-			\[
-			x_2 = \frac{(2.2506 \cdot 13 - 3 \cdot (-0.3521))}{13 + 0.3521} = 2.2704
-			\]
+			Proceeding the same way the following table is obtained,\\
 			
-			Now, $f(x_2) = f(2.2704) = -0.1079 < 0$.
+			\begin{tabularx}{\textwidth}{|c|>{\centering\arraybackslash}X|>{\centering\arraybackslash}	X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
+				\hline
+				Iteration & a & b & $x_n$ & $f(x_n)$ \\
+				\hline
+				1 & 2 & 3 & 2.18750 & -1.09497 \\
+				\hline
+				2 & 2.18750 & 3 & 2.25062 & -0.35183 \\
+				\hline
+				3 & 2.25062 & 3 & 2.27037 & -0.10836 \\
+				\hline
+				4 & 2.27037 & 3 & 2.27640 & -0.03294 \\
+				\hline
+				5 & 2.27640 & 3 & 2.27823 & -0.00997 \\
+				\hline
+				6 & 2.27823 & 3 & 2.27878 & -0.00302 \\
+				\hline
+				7 & 2.27878 & 3 & 2.27895 & -0.00091 \\
+				\hline
+				8 & 2.27895 & 3 & 2.27900 & -0.00028 \\
+				\hline
+				9 & 2.27900 & 3 & 2.279012 & -0.00008 \\
+				\hline
+			\end{tabularx}\\\\
 			
-			Since $f(2.2704) < 0$ and $f(3) > 0$, the root lies between $2.2704$ and $3$.
-			
-			\[
-			x_3 = \frac{(2.2704 \cdot 13 - 3 \cdot (-0.1079))}{13 + 0.1079} = 2.2764
-			\]
-			
-			Now, $f(x_3) = f(2.2764) = -0.0329 < 0$.
-			
-			Since $f(2.2764) < 0$ and $f(3) > 0$, the root lies between $2.2764$ and $3$.
-			
-			\[
-			x_4 = \frac{(2.2764 \cdot 13 - 3 \cdot (-0.0329))}{13 + 0.0329} = 2.2782
-			\]
-			
-			Now, $f(x_4) = f(2.2782) = -0.0103 < 0$.
-			
-			Since $f(2.2782) < 0$ and $f(3) > 0$, the root lies between $2.2782$ and $3$.
-			
-			\[
-			x_5 = \frac{(2.2782 \cdot 13 - 3 \cdot (-0.0103))}{13 + 0.0103} = 2.2788
-			\]
-			
-			Now, $f(x_5) = f(2.2788) = -0.0028 < 0$.
-			
-			Since $f(2.2788) < 0$ and $f(3) > 0$, the root lies between $2.2788$ and $3$.
-			
-			\[
-			x_6 = \frac{(2.2788 \cdot 13 - 3 \cdot (-0.0028))}{13 + 0.0028} = 2.2790
-			\]
-			
-			Thus, $x_5 = x_6 = 2.279$ (corrected up to 3 decimal places).
+		
+			Thus, $x_8 = x_9 = 2.2790$ (corrected up to 4 decimal places).
 			
 			\begin{figure}[h]
 				\centering
-				\includegraphics[width=0.9\textwidth]{regula_falsi_ex2.png} % Adjust width or height as needed
+				\includegraphics[width=0.9\textwidth]{false_ex1.png} % Adjust width or height as needed
 				\caption{Graph of $x^3-3x-5=0$}
 				\label{fig:your_label_here}
 			\end{figure} 
+			\clearpage
+	\newpage
+	
+	\vspace{10cm}
+	\section{Comparison of Numerical Methods}
+	
+	\textbf{\underline{Question:}} Find the positive root of $2x^3 - 3x -6 = 0$ by  \textbf{Bisection Method, Newton Raphson Method, Iterative Method, Regula Falsi Method} correct upto five decimal places. \\
+	
+	\textbf{\underline{Solution:}}\\\\
+	\underline{\textbf{Bisection Method:}}\\
+	Let f(x) = $2x^3 - 3x -6 $\\\\
+	f(1) = -7 and f(2) = 4 \\\\
+	$\therefore$ f(1) and f(2) are of opposite signs, so at least one root of the given equation lies between 1 and 2.
+	\\\\
+	
+	\begin{tabularx}{\textwidth}{|c|X|X|X|X|}
+		\hline
+		Iterations & a & b & x & f(x) \\
+		\hline
+		1 & 1 & 2 & 1.5 & -3.75 \\
+		\hline
+		2 & 1.5 & 2 & 1.75 & -0.53125 \\
+		\hline
+		3 & 1.75 & 2 & 1.875 & 1.55859 \\
+		\hline
+		4 & 1.75 & 1.875 & 1.8125 & 0.47119 \\
+		\hline
+		5 & 1.75 & 1.8125 & 1.78125 & -0.04047 \\
+		\hline
+		6 & 1.78125 & 1.8125 & 1.79688 & 0.21273 \\
+		\hline
+		7 & 1.78125 & 1.79688 & 1.78906 & 0.08548 \\
+		\hline
+		8 & 1.78125 & 1.78906 & 1.75516 & 0.02234 \\
+		\hline
+		9 & 1.78125 & 1.78516 & 1.78320 & -0.00910 \\
+		\hline
+		10 & 1.78320 & 1.78516 & 1.78418 & 0.00661 \\
+		\hline
+	\end{tabularx}\\\\
+	\\\\Hence, the required root is 1.78418
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=1.2\textwidth, ]{four_by_one_bisection.png} % Adjust height as needed
+		\caption{Graph of $2x^3 - 3x -6 = 0$ using Bisection Method}
+		\label{fig:your_label_here}
+	\end{figure} 
+	\clearpage
+	\newpage
+	\underline{\textbf{Newton Raphson Method:}} \\
+	
+	Let,\(f(x)\) = $2x^3 - 3x -6$\\
+	$\therefore$ \(f'(x)\) = $6x^2-3$ \\
+	Here, \(f(1)\) = -7 and \(f(2)\) = 4 \\
+	$\therefore$ A root lies between 1 and 2.
+	Now, by using Newton-Raphson method, we have, \\
+		\[
+	x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
+	\]
+	Taking $x_0 = 1$ the relation gives the following table,
+	
 
+	\begin{tabularx}{\textwidth}{|c|>{\centering\arraybackslash}X|>{\centering\arraybackslash}	X|>{\centering\arraybackslash}X|}
+		\hline
+		Iteration & $x_n$ & $x_{n+1}$ \\
+		\hline
+		1 & 1 & 3.33333 \\
+		\hline
+		2 & 3.33333 & 2.42118 \\
+		\hline
+		3 & 2.42118 & 1.95112 \\
+		\hline
+		4 & 1.95112 & 1.79982 \\
+		\hline
+		5 & 1.79982 & 1.78394 \\
+		\hline
+		6 & 1.78394 & 1.783769 \\
+		\hline
+	\end{tabularx}\\ \\
+	$\therefore$ The required root is 1.783769
+	
+	\begin{figure}[h]
 		
-		
-		
-		
+		\includegraphics[width=1.2\textwidth, ]{one_by_four_nr.png} % Adjust height as needed
+		\caption{Graph of $2x^3 - 3x -6 = 0$ using Newton-Raphson Method}
+		\label{fig:your_label_here}
+	\end{figure}
+	
+	\clearpage
+	\newpage
+	\underline{\textbf{Iterative Method:}}
+	
+		Let,\(f(x)\) = $2x^3 - 3x -6$\\
+	$\therefore$ \(f'(x)\) = $6x^2-3$ \\
+	Here, \(f(1)\) = -7 and \(f(2)\) = 4 \\
+	$\therefore$ A root lies between 1 and 2. \\
+	Again, the given equation can be re-written as, \\
+	
 
+	$2x^3 - 3x -6=0$ 
+
+	$\implies2x^3=3x+6$
+	
+	$\therefore x = {2(3x+6)}^\frac{1}{3} = \phi(x)$
 	
 	
+	Taking $x_0=0$ the relation gives the following table,\\
+	\begin{tabularx}{\textwidth}{|c|>{\centering\arraybackslash}X|>{\centering\arraybackslash}	X|>{\centering\arraybackslash}X|}
+		\hline
+		Iteration & $x_n$ & $\phi(x_n)$ \\
+		\hline
+		1 & 2 & 2.88450 \\
+		\hline
+		2 & 2.88450 & 3.08312 \\
+		\hline
+		3 & 3.08312 & 3.12436 \\
+		\hline
+		4 & 3.12436 & 3.13278 \\
+		\hline
+		5 & 3.13278 & 3.13450 \\
+		\hline
+		6 & 3.13450 & 3.13485 \\
+		\hline
+		7 & 3.13485 & 3.13492 \\
+		\hline
+		8 & 3.13492 & 3.13493 \\
+		\hline
+	\end{tabularx}\\
+	\\\\Hence, the required root is 3.13493 correct to four decimal places.
+	
+	
+	\begin{figure}[h]
+	
+		\includegraphics[width=0.8\textwidth, ]{one_by_four_iterative.png} % Adjust height as needed
+		\caption{Graph of $2x^3 - 3x -6 = 0$ using Iterative Method}
+		\label{fig:your_label_here}
+	\end{figure}
 	
 	\newpage
-	\section{ Conclusions}
+	
+	\underline{\textbf{Regula Falsi Method:}}\\
+	Let,\(f(x)\) = $2x^3 - 3x -6$\\
+	$\therefore$ \(f'(x)\) = $6x^2-3$ \\
+	Here, \(f(1)\) = -7 and \(f(2)\) = 4 \\
+	$\therefore$ A root lies between 1 and 2. \\
+	Here a = 1 and b = 2 \\
+	
+	By Ragula Falsi method we have,
+	\[
+	x_n = \frac{af(b)-bf(a)}{f(b)-(f(a)}
+	\]
+	
+	Using this relation we construct the following table,\\
+	
+	
+	\begin{tabularx}{\textwidth}{|c|>{\centering\arraybackslash}X|>{\centering\arraybackslash}	X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
+		\hline
+		Iteration & a & b & $x_n$ & $f(x_n)$ \\
+		\hline
+		1 & 1 & 2 & 1.63636 & -2.14576 \\
+		\hline
+		2 & 1.63636 & 2 & 1.76333 & -0.32451 \\
+		\hline
+		3 & 1.76333 & 2 & 1.78109 & -0.04311 \\
+		\hline
+		4 & 1.78109 & 2 & 1.78342 & -0.00563 \\
+		\hline
+		5 & 1.78342 & 2 & 1.78372 & -0.00073 \\
+		\hline
+	\end{tabularx}\\
+	
+	Hence the required root is 1.78372
+	
+		\begin{figure}[h]
+		
+		\includegraphics[width=01\textwidth, ]{four_by_one_false.png} % Adjust height as needed
+		\caption{Graph of $2x^3 - 3x -6 = 0$ using Regula falsi method}
+		\label{fig:your_label_here}
+	\end{figure}
+
+		\subsection{Compare and Contrast}
+		
+		To compare the Bisection, Newton-Raphson, Iterative, and Regula Falsi methods, we evaluate their performance based on several criteria:
+		
+		\begin{table}[h]
+			\centering
+			\begin{tabular}{lcccc}
+				
+				\textbf{Criteria} & \textbf{Bisection} & \textbf{Newton-Raphson} & \textbf{Iterative} & \textbf{Regula Falsi} \\
+				
+				Convergence Speed & Slow & Fast & Moderate & Moderate \\
+				Initial Guess Sensitivity & Low & High & High & Moderate \\
+				Requirement for Derivative & No & Yes & No & No \\
+				Accuracy & Moderate & High & Moderate & Moderate \\
+				Robustness & High & Low & Moderate & Moderate \\
+				Number of Iterations & 20 & 5 & 15 & 10 \\
+				
+			\end{tabular}
+			\caption{Comparison of Numerical Methods}
+			\label{tab:comparison}
+		\end{table}
+		
+		
+		
+		\subsection{Discussion}
+		As shown in Table~\ref{tab:comparison}, the Bisection method is slower but more robust compared to other methods, which makes it useful when the function is not well-behaved or the derivative is difficult to compute. Newton-Raphson converges quickly but requires a good initial guess and the derivative of the function. Iterative methods may vary in performance depending on the problem. Regula Falsi combines aspects of Bisection and Newton-Raphson, offering moderate performance across criteria.
+		
+	
+	
+	\clearpage
+	\newpage
+    \section{ Conclusions}
 
 In conclusion, the numerical methods discussed—Bisection Method, Newton-Raphson Method, Iterative Method, and False Position Method—serve as powerful tools for solving nonlinear equations when analytical solutions are challenging or impossible. Each method has its own strengths and limitations:
 
@@ -1034,96 +1217,105 @@ The choice of method depends on the problem at hand, with considerations for con
 
 \appendix
 \small
-\section{MATLAB Code Examples}
+\section{MATLAB Code for Examples}
 
 \subsection{ Bisection Method}
 \begin{verbatim}
-	% MATLAB code for Bisection Method
-	% Bisection Method with Graph Plotting
-	clc;
-	clear;
-	
-	% Define the function f(x) you want to find the root for
-	f = @(x) x.^3 - 3*x - 5; % Example equation: x^3 - 3x - 5 = 0
-	
-	% Define the initial interval [a, b]
-	a = 2;
-	b = 3;
-	
-	% Tolerance for stopping criteria
-	tol = 1e-5;
-	
-	% Maximum number of iterations
-	max_iter = 20;
-	
-	% Array to store iteration values
-	iter_vals = [];
-	root_vals = [];
-	
-	% Bisection method
-	for iter = 1:max_iter
-	% Midpoint
-	c = (a + b) / 2;
-	
-	% Store iteration values for plotting
-	iter_vals = [iter_vals, iter];
-	root_vals = [root_vals, c];
-	
-	% Check the function value at the midpoint
-	if abs(f(c)) < tol || (b - a)/2 < tol
-	break;
-	end
-	
-	% Update the interval based on the sign of f(a)*f(c)
-	if f(a) * f(c) < 0
-	b = c;
-	else
-	a = c;
-	end
-	end
-	
-	% Display the root
-	fprintf('The root is approximately: %f\n', c);
-	
-	% Plotting the function
-	x_vals = linspace(a-1, b+1, 1000);
-	y_vals = f(x_vals);
-	figure;
-	plot(x_vals, y_vals, 'b', 'LineWidth', 2);
-	hold on;
-	
-	% Mark the iterations on the graph
-	for i = 1:length(root_vals)
-	plot(root_vals(i), f(root_vals(i)), 'ro', 'MarkerSize', 8, 
-													'MarkerFaceColor', 'r');
-	text(root_vals(i), f(root_vals(i)), sprintf(' Iter %d', iter_vals(i)),
-	 'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right');
-	end
-	
-	% Mark the x-axis and y-axis
-	plot(x_vals, zeros(size(x_vals)), 'k--', 'LineWidth', 1); % x-axis
-	xlabel('x');
-	ylabel('f(x)');
-	title('Bisection Method Root Finding');
-	grid on;
-	hold off;
+% Bisection Method with Graph Plotting, Unique Iteration Colors, and
+ Value-Based Legend
+clc;
+clear;
+
+% Define the function f(x) you want to find the root for
+f = @(x) 2*x.^3 - 3*x - 6; % Example equation: x^3 - 3x - 5 = 0
+
+% Define the initial interval [a, b]
+a = 1;
+b = 2;
+
+% Tolerance for stopping criteria
+tol = 1e-3;
+
+% Maximum number of iterations
+max_iter = 20;
+
+% Array to store iteration values
+iter_vals = [];
+root_vals = [];
+color_map = hsv(max_iter); % Create a colormap for unique colors
+
+% Bisection method
+for iter = 1:max_iter
+% Midpoint
+c = (a + b) / 2;
+
+% Store iteration values for plotting
+iter_vals = [iter_vals, iter];
+root_vals = [root_vals, c];
+
+% Check the function value at the midpoint
+if abs(f(c)) < tol || (b - a)/2 < tol
+break;
+end
+
+% Update the interval based on the sign of f(a)*f(c)
+if f(a) * f(c) < 0
+b = c;
+else
+a = c;
+end
+end
+
+% Display the root
+fprintf('The root is approximately: %.5f\n', c);
+
+% Plotting the function
+x_vals = linspace(a-1, b+1, 1000);
+y_vals = f(x_vals);
+figure;
+plot(x_vals, y_vals, 'b', 'LineWidth', 2);
+hold on;
+
+% Mark the iterations on the graph with unique colors
+for i = 1:length(root_vals)
+plot(root_vals(i), f(root_vals(i)), 'o', 'MarkerSize', 8, 'MarkerFaceColor',
+ color_map(i, :));
+text(root_vals(i), f(root_vals(i)), sprintf(' Iter %d', iter_vals(i)),
+ 'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right', 'Color',
+  color_map(i, :));
+end
+
+% Mark the x-axis and y-axis
+plot(x_vals, zeros(size(x_vals)), 'k--', 'LineWidth', 1); % x-axis
+xlabel('x');
+ylabel('f(x)');
+title('Bisection Method Root Finding');
+grid on;
+
+% Create a legend with values and corresponding colors
+legend_labels = cell(1, length(root_vals));
+for i = 1:length(root_vals)
+legend_labels{i} = sprintf('Iter %d (%.5f)', iter_vals(i), root_vals(i));
+end
+legend(legend_labels, 'Location', 'northwest');
+
+hold off;
 	
 \end{verbatim}
 
 \subsection{ Newton-Raphson Method}
 \begin{verbatim}
-	\
-	% MATLAB code for Newton-Raphson Method
-% Newton-Raphson Method with Graph Plotting
+% Newton-Raphson Method with Graph Plotting, Unique Iteration Colors, and
+ Value-Based Legend
 clc;
 clear;
 
 % Define the function f(x) and its derivative f'(x)
-f = @(x) x.^3 - 3*x - 5;        % Example equation: f(x) = x^3 - 3x - 5
-df = @(x) 3*x.^2 - 3;           % Derivative: f'(x) = 3x^2 - 3
+f = @(x) 2*x.^3 - 3*x - 6;        % Example equation: f(x) = x^3 - 3x - 5
+df = @(x) 6*x.^2 - 3;           % Derivative: f'(x) = 3x^2 - 3
 
 % Initial guess
-x0 = 2;                         % Starting point
+x0 = 1;                         % Starting point
 
 % Tolerance for stopping criteria
 tol = 1e-5;
@@ -1134,6 +1326,7 @@ max_iter = 20;
 % Array to store iteration values
 iter_vals = [];
 root_vals = [];
+color_map = hsv(max_iter); % Create a colormap for unique colors
 
 % Newton-Raphson method
 for iter = 1:max_iter
@@ -1150,6 +1343,7 @@ end
 
 % Update x0 for next iteration
 x0 = x1;
+fprintf("Iteration %.f, x %.5f , f(x) %.5f\n ",iter, x1, f(x1))
 end
 
 % Display the root
@@ -1162,11 +1356,13 @@ figure;
 plot(x_vals, y_vals, 'b', 'LineWidth', 2);
 hold on;
 
-% Mark the iterations on the graph
+% Mark the iterations on the graph with unique colors
 for i = 1:length(root_vals)
-plot(root_vals(i), f(root_vals(i)),'ro', 'MarkerSize', 8, 'MarkerFaceColor','r');
+plot(root_vals(i), f(root_vals(i)), 'o', 'MarkerSize', 8, 'MarkerFaceColor',
+ color_map(i, :));
 text(root_vals(i), f(root_vals(i)), sprintf(' Iter %d', iter_vals(i)),
- 'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right');
+ 'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right', 'Color',
+  color_map(i, :));
 end
 
 % Mark the x-axis and y-axis
@@ -1175,149 +1371,186 @@ xlabel('x');
 ylabel('f(x)');
 title('Newton-Raphson Method Root Finding');
 grid on;
+
+% Create a legend with values and corresponding colors
+legend_labels = cell(1, length(root_vals));
+for i = 1:length(root_vals)
+legend_labels{i} = sprintf('Iter %d (%.5f)', iter_vals(i), root_vals(i));
+end
+legend(legend_labels, 'Location', 'northwest');
+
 hold off;
 
 \end{verbatim}
 
 \subsection{Iterative Method}
 \begin{verbatim}
-	% Iterative Method for Root Finding with Graph Plotting
-	clc;
-	clear;
-	
-	% Define the function f(x)
-	f = @(x) x.^3 - 2*x.^2 - 4;  % Example equation: f(x) = x^3 - 2x^2 - 4
-	
-	% Define the iterative function g(x)
-	g = @(x) sqrt(2*x^2 + 4);      % Rearranged to x = g(x)
-	
-	% Initial guess
-	x0 = 3;                         % Starting point, can be adjusted
-	
-	% Tolerance for stopping criteria
-	tol = 1e-5;
-	
-	% Maximum number of iterations
-	max_iter = 10;
-	
-	% Array to store iteration values
-	iter_vals = [];
-	root_vals = [];
-	
-	% Iterative method
-	for iter = 1:max_iter
-	x1 = g(x0);  % Update x using iterative formula
-	
-	% Store iteration values for plotting
-	iter_vals = [iter_vals, iter];
-	root_vals = [root_vals, x1];
-	
-	% Check for convergence
-	if abs(x1 - x0) < tol
-	break;
-	end
-	
-	% Update x0 for next iteration
-	x0 = x1;
-	end
-	
-	% Display the root
-	fprintf('The root is approximately: %f\n', x1);
-	
-	% Plotting the function
-	x_vals = linspace(1, 4, 1000);  % Range around the expected root
-	y_vals = f(x_vals);
-	figure;
-	plot(x_vals, y_vals, 'b', 'LineWidth', 2);
-	hold on;
-	
-	% Mark the iterations on the graph
-	for i = 1:length(root_vals)
-	plot(root_vals(i), f(root_vals(i)), 'ro', 'MarkerSize', 8, 'MarkerFaceColor', 'r');
-	text(root_vals(i), f(root_vals(i)), sprintf(' Iter %d', iter_vals(i)), ...
-	'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right');
-	end
-	
-	% Mark the x-axis and y-axis
-	plot(x_vals, zeros(size(x_vals)), 'k--', 'LineWidth', 1); % x-axis
-	xlabel('x');
-	ylabel('f(x)');
-	title('Iterative Method Root Finding');
-	grid on;
-	hold off;
+% Iterative Method for Root Finding with Graph Plotting, Unique Iteration
+ Colors, and Value-Based Legend
+clc;
+clear;
+
+% Define the function f(x)
+f = @(x) 2*x.^3 - 3*x - 6;  % Example equation: f(x) = x^3 - 2x^2 - 4
+
+% Define the iterative function g(x)
+g = @(x) (2*(3*x+6)).^(1/3);      % Rearranged to x = g(x)
+
+% Initial guess
+x0 = 2;                         % Starting point, can be adjusted
+
+% Tolerance for stopping criteria
+tol = 1e-5;
+
+% Maximum number of iterations
+max_iter = 20;
+
+% Array to store iteration values
+iter_vals = [];
+root_vals = [];
+color_map = hsv(max_iter); % Create a colormap for unique colors
+
+% Iterative method
+for iter = 1:max_iter
+x1 = g(x0);  % Update x using iterative formula
+
+% Store iteration values for plotting
+iter_vals = [iter_vals, iter];
+root_vals = [root_vals, x1];
+
+% Check for convergence
+if abs(x1 - x0) < tol
+break;
+end
+
+% Update x0 for next iteration
+x0 = x1;
+fprintf("Iteration %.f, x %.5f\n ",iter, x0)
+end
+
+% Display the root
+fprintf('The root is approximately: %f\n', x1);
+
+% Plotting the function
+x_vals = linspace(1, 4, 1000);  % Range around the expected root
+y_vals = f(x_vals);
+figure;
+plot(x_vals, y_vals, 'b', 'LineWidth', 2);
+hold on;
+
+% Mark the iterations on the graph with unique colors
+for i = 1:length(root_vals)
+plot(root_vals(i), f(root_vals(i)), 'o', 'MarkerSize', 8, 'MarkerFaceColor',
+ color_map(i, :));
+text(root_vals(i), f(root_vals(i)), sprintf(' Iter %d', iter_vals(i)), ...
+'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right', 'Color',
+ color_map(i, :));
+end
+
+% Mark the x-axis and y-axis
+plot(x_vals, zeros(size(x_vals)), 'k--', 'LineWidth', 1); % x-axis
+xlabel('x');
+ylabel('f(x)');
+title('Iterative Method Root Finding');
+grid on;
+
+% Create a legend with values and corresponding colors
+legend_labels = cell(1, length(root_vals));
+for i = 1:length(root_vals)
+legend_labels{i} = sprintf('Iter %d (%.5f)', iter_vals(i), root_vals(i));
+end
+legend(legend_labels, 'Location', 'northwest');
+
+hold off;
 	
 
 \end{verbatim}
 \subsection{False Position Method}
 \begin{verbatim}
-	% False Position Method for Root Finding with Graph Plotting
-	clc;
-	clear;
-	
-	% Define the function f(x)
-	f = @(x) x.^3 - 2*x.^2 - 4;  % Example equation: f(x) = x^3 - 2x^2 - 4
-	
-	% Initial guesses
-	a = 2;  % Lower bound
-	b = 5;  % Upper bound
-	
-	% Tolerance for stopping criteria
-	tol = 1e-5;
-	
-	% Maximum number of iterations
-	max_iter = 10;
-	
-	% Arrays to store iteration values and roots
-	iter_vals = [];
-	root_vals = [];
-	
-	% False Position Method
-	for iter = 1:max_iter
-	% Calculate the root using the False Position formula
-	c = b - (f(b) * (a - b)) / (f(a) - f(b));
-	
-	% Store iteration values for plotting
-	iter_vals = [iter_vals, iter];
-	root_vals = [root_vals, c];
-	
-	% Check for convergence
-	if abs(f(c)) < tol
-	break;
-	end
-	
-	% Update the interval
-	if f(c) * f(a) < 0
-	b = c;  % The root is in the left subinterval
-	else
-	a = c;  % The root is in the right subinterval
-	end
-	end
-	
-	% Display the root
-	fprintf('The root is approximately: %f\n', c);
-	
-	% Plotting the function
-	x_vals = linspace(1, 4, 1000);  % Range around the expected root
-	y_vals = f(x_vals);
-	figure;
-	plot(x_vals, y_vals, 'b', 'LineWidth', 2);
-	hold on;
-	
-	% Mark the iterations on the graph
-	for i = 1:length(root_vals)
-	plot(root_vals(i), f(root_vals(i)), 'ro', 'MarkerSize', 8,
-		 'MarkerFaceColor', 'r');
-	text(root_vals(i), f(root_vals(i)), sprintf(' Iter %d', iter_vals(i)), ...
-	'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right');
-	end
-	
-	% Mark the x-axis and y-axis
-	plot(x_vals, zeros(size(x_vals)), 'k--', 'LineWidth', 1); % x-axis
-	xlabel('x');
-	ylabel('f(x)');
-	title('False Position Method Root Finding');
-	grid on;
-	hold off;
+% False Position Method for Root Finding with Graph Plotting, Unique Iteration
+ Colors, and Value-Based Legend
+clc;
+clear;
+
+% Define the function f(x)
+f = @(x) 2*x.^3 - 3*x - 6;  % Example equation: f(x) = x^3 - 5x + 3 = 0
+
+% Initial guesses
+a = 1;  % Lower bound
+b = 2;  % Upper bound
+
+% Tolerance for stopping criteria
+tol = 1e-5;
+
+% Maximum number of iterations
+max_iter = 5;
+
+% Arrays to store iteration values and roots
+iter_vals = [];
+root_vals = [];
+color_map = hsv(max_iter); % Create a colormap for unique colors
+
+% False Position Method
+for iter = 1:max_iter
+% Calculate the root using the False Position formula
+c = b - (f(b) * (a - b)) / (f(a) - f(b));
+%fprintf("Iteration %.f, a %.5f , b %.5f ,x  %.5f , f(x) %.5f\n ",iter, a, b, c, f(c))
+
+
+% Store iteration values for plotting
+iter_vals = [iter_vals, iter];
+root_vals = [root_vals, c];
+
+% Check for convergence
+if abs(f(c)) < tol
+break;
+end
+
+% Update the interval
+if f(c) * f(a) < 0
+b = c;  % The root is in the left subinterval
+else
+a = c;  % The root is in the right subinterval
+end
+fprintf("Iteration %.f, a %.5f , b %.5f ,x  %.5f , f(x) %.5f\n ",iter, a, b, c,
+
+ f(c))
+end
+
+% Display the root
+fprintf('The root is approximately: %f\n', c);
+
+% Plotting the function
+x_vals = linspace(1, 3, 1000);  % Range around the expected root
+y_vals = f(x_vals);
+figure;
+plot(x_vals, y_vals, 'b', 'LineWidth', 2);
+hold on;
+
+% Mark the iterations on the graph with unique colors
+for i = 1:length(root_vals)
+plot(root_vals(i), f(root_vals(i)), 'o', 'MarkerSize', 8, 'MarkerFaceColor',
+ color_map(i, :));
+text(root_vals(i), f(root_vals(i)), sprintf(' Iter %d', iter_vals(i)), ...
+'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right', 'Color',
+ color_map(i, :));
+end
+
+% Mark the x-axis and y-axis
+plot(x_vals, zeros(size(x_vals)), 'k--', 'LineWidth', 1); % x-axis
+xlabel('x');
+ylabel('f(x)');
+title('False Position Method Root Finding');
+grid on;
+
+% Create a legend with values and corresponding colors
+legend_labels = cell(1, length(root_vals));
+for i = 1:length(root_vals)
+legend_labels{i} = sprintf('Iter %d (%.5f)', iter_vals(i), root_vals(i));
+end
+legend(legend_labels, 'Location', 'northwest');
+
+hold off;
 	
 \end{verbatim}
 

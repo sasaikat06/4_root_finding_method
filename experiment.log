@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.20)  18 OCT 2024 01:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.9.20)  8 OCT 2024 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./assign.tex
-(assign.tex
+**./experiment.tex
+(experiment.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (E:\Miktex\tex/latex/base\article.cls
@@ -449,17 +449,45 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 (E:\Miktex\tex/latex/psnfss\courier.sty
 Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
 )
+(E:\Miktex\tex/latex/listings\listings.sty
+\lst@mode=\count310
+\lst@gtempboxa=\box103
+\lst@token=\toks28
+\lst@length=\count311
+\lst@currlwidth=\dimen181
+\lst@column=\count312
+\lst@pos=\count313
+\lst@lostspace=\dimen182
+\lst@width=\dimen183
+\lst@newlines=\count314
+\lst@lineno=\count315
+\lst@maxwidth=\dimen184
+
+(E:\Miktex\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
+)
+(E:\Miktex\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
+\c@lstnumber=\count316
+\lst@skipnumbers=\count317
+\lst@framebox=\box104
+)
+(E:\Miktex\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/05/25 1.10b listings configuration
+))
+Package: listings 2024/05/25 1.10b (Carsten Heinz)
+
 (E:\Miktex\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box103
+\ttl@box=\box105
 \beforetitleunit=\skip68
 \aftertitleunit=\skip69
-\ttl@plus=\dimen181
-\ttl@minus=\dimen182
-\ttl@toksa=\toks28
-\titlewidth=\dimen183
-\titlewidthlast=\dimen184
-\titlewidthfirst=\dimen185
+\ttl@plus=\dimen185
+\ttl@minus=\dimen186
+\ttl@toksa=\toks29
+\titlewidth=\dimen187
+\titlewidthlast=\dimen188
+\titlewidthfirst=\dimen189
 )
 
 Package geometry Warning: Over-specification in `h'-direction.
@@ -473,19 +501,7 @@ LaTeX Font Info:    Trying to load font information for T1+ptm on input line 61
 .
 (E:\Miktex\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (assign.aux
-
-LaTeX Warning: Label `fig:your_label_here' multiply defined.
-
-
-LaTeX Warning: Label `fig:your_label_here' multiply defined.
-
-
-LaTeX Warning: Label `fig:your_label_here' multiply defined.
-
-
-LaTeX Warning: Label `fig:your_label_here' multiply defined.
-
+) (experiment.aux
 
 LaTeX Warning: Label `fig:your_label_here' multiply defined.
 
@@ -499,7 +515,7 @@ LaTeX Warning: Label `fig:your_label_here' multiply defined.
 LaTeX Warning: Label `fig:your_label_here' multiply defined.
 
 )
-\openout1 = `assign.aux'.
+\openout1 = `experiment.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
@@ -521,17 +537,17 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
  (E:\Miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count310
-\scratchdimen=\dimen186
-\scratchbox=\box104
-\nofMPsegments=\count311
-\nofMParguments=\count312
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count313
-\MPscratchDim=\dimen187
-\MPnumerator=\count314
-\makeMPintoPDFobject=\count315
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count318
+\scratchdimen=\dimen190
+\scratchbox=\box106
+\nofMPsegments=\count319
+\nofMParguments=\count320
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count321
+\MPscratchDim=\dimen191
+\MPnumerator=\count322
+\makeMPintoPDFobject=\count323
+\everyMPtoPDFconversion=\toks31
 ) (E:\Miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -541,9 +557,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 61.
- (assign.out) (assign.out)
+ (experiment.out)
+(experiment.out)
 \@outlinefile=\write3
-\openout3 = `assign.out'.
+\openout3 = `experiment.out'.
 
 
 *geometry* driver: auto-detecting
@@ -580,6 +597,7 @@ Package hyperref Info: Link coloring OFF on input line 61.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\c@lstlisting=\count324
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  70.
 (E:\Miktex\tex/latex/psnfss\ot1ztmcm.fd
@@ -645,7 +663,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
 
 
-[3] (assign.toc
+[3] (experiment.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 
@@ -660,7 +678,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4])
 \tf@toc=\write4
-\openout4 = `assign.toc'.
+\openout4 = `experiment.toc'.
 
 
 
@@ -776,7 +794,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
-<B1.png, id=200, 563.10374pt x 358.33875pt>
+<B1.png, id=190, 563.10374pt x 358.33875pt>
 File: B1.png Graphic file (type png)
 <use B1.png>
 Package pdftex.def Info: B1.png  used on input line 192.
@@ -963,7 +981,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
-<bisection_ex_fig_1.png, id=222, 1110.0672pt x 544.9158pt>
+<bisection_ex_fig_1.png, id=212, 1110.0672pt x 544.9158pt>
 File: bisection_ex_fig_1.png Graphic file (type png)
 <use bisection_ex_fig_1.png>
 Package pdftex.def Info: bisection_ex_fig_1.png  used on input line 297.
@@ -1013,7 +1031,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 344--345
 [][] 
  []
 
-<bisection_ex_fig_2.png, id=229, 1110.0672pt x 544.9158pt>
+<bisection_ex_fig_2.png, id=219, 1110.0672pt x 544.9158pt>
 File: bisection_ex_fig_2.png Graphic file (type png)
 <use bisection_ex_fig_2.png>
 Package pdftex.def Info: bisection_ex_fig_2.png  used on input line 349.
@@ -1098,7 +1116,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<Nr_fig_0.png, id=241, 391.4625pt x 229.60782pt>
+<Nr_fig_0.png, id=231, 391.4625pt x 229.60782pt>
 File: Nr_fig_0.png Graphic file (type png)
 <use Nr_fig_0.png>
 Package pdftex.def Info: Nr_fig_0.png  used on input line 397.
@@ -1231,40 +1249,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 444--447
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--449
+Underfull \hbox (badness 10000) in paragraph at lines 448--451
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--449
+Underfull \hbox (badness 10000) in paragraph at lines 448--451
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--452
+Underfull \hbox (badness 10000) in paragraph at lines 454--456
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--457
-
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 474--475
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 473--474
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--475
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
 
  []
 
-<Nr_ex01.png, id=256, 1445.4pt x 697.10437pt>
-File: Nr_ex01.png Graphic file (type png)
-<use Nr_ex01.png>
-Package pdftex.def Info: Nr_ex01.png  used on input line 482.
-(pdftex.def)             Requested size: 318.66948pt x 153.69318pt.
+<Nr_fig_1.png, id=246, 722.7pt x 433.62pt>
+File: Nr_fig_1.png Graphic file (type png)
+<use Nr_fig_1.png>
+Package pdftex.def Info: Nr_fig_1.png  used on input line 481.
+(pdftex.def)             Requested size: 318.66948pt x 191.20361pt.
 
 
 
@@ -1275,21 +1288,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12 <./Nr_ex01.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 488--490
+[12 <./Nr_fig_1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 487--489
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--504
+Underfull \hbox (badness 10000) in paragraph at lines 500--503
 
  []
 
-<Nr_ex02.png, id=263, 1445.4pt x 697.10437pt>
-File: Nr_ex02.png Graphic file (type png)
-<use Nr_ex02.png>
-Package pdftex.def Info: Nr_ex02.png  used on input line 521.
-(pdftex.def)             Requested size: 409.71692pt x 197.60248pt.
+<Nr_fig_2.png, id=254, 462.528pt x 346.896pt>
+File: Nr_fig_2.png Graphic file (type png)
+<use Nr_fig_2.png>
+Package pdftex.def Info: Nr_fig_2.png  used on input line 520.
+(pdftex.def)             Requested size: 273.14923pt x 204.87329pt.
 
 
 
@@ -1300,71 +1313,71 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13 <./Nr_ex02.png (PNG copy)>]
+[13 <./Nr_fig_2.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 528.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 528.
+(hyperref)                removing `\<let>-command' on input line 527.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@centercr' on input line 528.
+(hyperref)                removing `\\' on input line 527.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightskip' on input line 528.
+(hyperref)                removing `\@centercr' on input line 527.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 528.
+(hyperref)                removing `\rightskip' on input line 527.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leftskip' on input line 528.
+(hyperref)                removing `\@flushglue' on input line 527.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 528.
+(hyperref)                removing `\leftskip' on input line 527.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\finalhyphendemerits' on input line 528.
+(hyperref)                removing `\@flushglue' on input line 527.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 528.
+(hyperref)                removing `\finalhyphendemerits' on input line 527.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parindent' on input line 528.
+(hyperref)                removing `\z@' on input line 527.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 528.
+(hyperref)                removing `\parindent' on input line 527.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parfillskip' on input line 528.
+(hyperref)                removing `\z@' on input line 527.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 528.
+(hyperref)                removing `\parfillskip' on input line 527.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--532
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@skip' on input line 527.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--534
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--541
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
 
  []
 
@@ -1379,28 +1392,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 547--549
+Underfull \hbox (badness 10000) in paragraph at lines 546--548
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--561
+Underfull \hbox (badness 10000) in paragraph at lines 558--560
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 574--575
+Underfull \hbox (badness 10000) in paragraph at lines 573--574
 
  []
 
 
-Overfull \hbox (10.6657pt too wide) in paragraph at lines 584--585
+Overfull \hbox (10.6657pt too wide) in paragraph at lines 583--584
 []\T1/ptm/m/n/18 This en-sures that each it-er-a-tion brings the ap-prox-i-ma-t
 ion closer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 584--585
+Underfull \hbox (badness 10000) in paragraph at lines 583--584
 
  []
 
@@ -1415,32 +1428,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 595--597
+Underfull \hbox (badness 10000) in paragraph at lines 594--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--618
+Underfull \hbox (badness 10000) in paragraph at lines 612--617
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--629
+Underfull \hbox (badness 10000) in paragraph at lines 624--628
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--635
+Underfull \hbox (badness 10000) in paragraph at lines 629--634
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--635
+Underfull \hbox (badness 10000) in paragraph at lines 629--634
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 636--640
+Underfull \hbox (badness 10000) in paragraph at lines 635--639
 
  []
 
@@ -1455,47 +1468,47 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 641--642
+Underfull \hbox (badness 10000) in paragraph at lines 640--641
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--644
+Underfull \hbox (badness 10000) in paragraph at lines 642--643
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 653--655
+Underfull \hbox (badness 10000) in paragraph at lines 652--654
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 653--655
+Underfull \hbox (badness 10000) in paragraph at lines 652--654
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--658
+Underfull \hbox (badness 10000) in paragraph at lines 655--657
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--658
+Underfull \hbox (badness 10000) in paragraph at lines 655--657
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--663
+Underfull \hbox (badness 10000) in paragraph at lines 660--662
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--663
+Underfull \hbox (badness 10000) in paragraph at lines 660--662
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 664--665
+Underfull \hbox (badness 10000) in paragraph at lines 663--664
 
  []
 
@@ -1520,57 +1533,47 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 673--678
+Underfull \hbox (badness 10000) in paragraph at lines 672--677
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 673--678
+Underfull \hbox (badness 10000) in paragraph at lines 672--677
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--682
+Underfull \hbox (badness 10000) in paragraph at lines 678--681
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 683--685
+Underfull \hbox (badness 10000) in paragraph at lines 682--684
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 686--690
+Underfull \hbox (badness 10000) in paragraph at lines 685--689
 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 713--714
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 716--717
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--714
+Underfull \hbox (badness 10000) in paragraph at lines 718--720
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--714
+Underfull \hbox (badness 10000) in paragraph at lines 718--720
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--717
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 715--717
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 715--717
+Underfull \hbox (badness 10000) in paragraph at lines 718--720
 
  []
 
@@ -1585,23 +1588,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [19]
-<Iteration_ex01.png, id=295, 1445.4pt x 697.10437pt>
-File: Iteration_ex01.png Graphic file (type png)
-<use Iteration_ex01.png>
-Package pdftex.def Info: Iteration_ex01.png  used on input line 720.
-(pdftex.def)             Requested size: 409.71692pt x 197.60248pt.
+<iterative_ex2.png, id=287, 462.528pt x 346.896pt>
+File: iterative_ex2.png Graphic file (type png)
+<use iterative_ex2.png>
+Package pdftex.def Info: iterative_ex2.png  used on input line 723.
+(pdftex.def)             Requested size: 409.71692pt x 307.302pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 726--727
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 726--727
+Underfull \hbox (badness 10000) in paragraph at lines 729--730
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 728--734
+Underfull \hbox (badness 10000) in paragraph at lines 729--730
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 731--737
 
  []
 
@@ -1615,21 +1618,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20 <./Iteration_ex01.png (PNG copy)>]
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 770--771
+[20 <./iterative_ex2.png>]
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 773--774
 [][] 
  []
 
-<Iterative_ex02.png, id=302, 1445.4pt x 697.10437pt>
-File: Iterative_ex02.png Graphic file (type png)
-<use Iterative_ex02.png>
-Package pdftex.def Info: Iterative_ex02.png  used on input line 776.
-(pdftex.def)             Requested size: 500.77129pt x 241.51176pt.
-
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 776--777
- [][] 
- []
-
+<iterative_ex1.jpg, id=295, 963.6pt x 472.76625pt>
+File: iterative_ex1.jpg Graphic file (type jpg)
+<use iterative_ex1.jpg>
+Package pdftex.def Info: iterative_ex1.jpg  used on input line 779.
+(pdftex.def)             Requested size: 409.71692pt x 201.01317pt.
 
 
 
@@ -1640,77 +1638,77 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21 <./Iterative_ex02.png (PNG copy)>]
+[21 <./iterative_ex1.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 784.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 784.
+(hyperref)                removing `\<let>-command' on input line 787.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@centercr' on input line 784.
+(hyperref)                removing `\\' on input line 787.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightskip' on input line 784.
+(hyperref)                removing `\@centercr' on input line 787.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 784.
+(hyperref)                removing `\rightskip' on input line 787.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leftskip' on input line 784.
+(hyperref)                removing `\@flushglue' on input line 787.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 784.
+(hyperref)                removing `\leftskip' on input line 787.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\finalhyphendemerits' on input line 784.
+(hyperref)                removing `\@flushglue' on input line 787.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 784.
+(hyperref)                removing `\finalhyphendemerits' on input line 787.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parindent' on input line 784.
+(hyperref)                removing `\z@' on input line 787.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 784.
+(hyperref)                removing `\parindent' on input line 787.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parfillskip' on input line 784.
+(hyperref)                removing `\z@' on input line 787.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 784.
+(hyperref)                removing `\parfillskip' on input line 787.
 
 
-Overfull \hbox (23.3716pt too wide) in paragraph at lines 804--805
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@skip' on input line 787.
+
+
+Overfull \hbox (23.3716pt too wide) in paragraph at lines 807--808
 \T1/ptm/m/n/18 The \T1/ptm/b/n/18 false po-si-tion method\T1/ptm/m/n/18 , also 
 known as the \T1/ptm/b/n/18 reg-ula falsi method\T1/ptm/m/n/18 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 804--805
+Underfull \hbox (badness 10000) in paragraph at lines 807--808
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 806--807
+Underfull \hbox (badness 10000) in paragraph at lines 809--810
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 811--813
+Underfull \hbox (badness 10000) in paragraph at lines 814--816
 
  []
 
@@ -1725,13 +1723,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [22]
-Overfull \hbox (4.74146pt too wide) in paragraph at lines 816--817
+Overfull \hbox (4.74146pt too wide) in paragraph at lines 819--820
 \T1/ptm/m/n/18 The equa-tion of the straight line pass-ing through these two po
 ints
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 859--860
+Underfull \hbox (badness 10000) in paragraph at lines 862--863
 
  []
 
@@ -1746,27 +1744,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 866--870
+Underfull \hbox (badness 10000) in paragraph at lines 869--873
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--879
+Underfull \hbox (badness 10000) in paragraph at lines 880--882
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 880--881
+Underfull \hbox (badness 10000) in paragraph at lines 883--884
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 882--883
+Underfull \hbox (badness 10000) in paragraph at lines 885--886
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 884--886
+Underfull \hbox (badness 10000) in paragraph at lines 887--889
 
  []
 
@@ -1781,47 +1779,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 887--889
+Underfull \hbox (badness 10000) in paragraph at lines 890--892
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 887--889
+Underfull \hbox (badness 10000) in paragraph at lines 890--892
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 893--894
+Underfull \hbox (badness 10000) in paragraph at lines 895--896
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 895--899
+Underfull \hbox (badness 10000) in paragraph at lines 897--901
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 895--899
+Underfull \hbox (badness 10000) in paragraph at lines 897--901
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 895--899
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 901--905
-
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 924--925
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 924--925
+Underfull \hbox (badness 10000) in paragraph at lines 897--901
 
  []
 
@@ -1836,16 +1819,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [25]
-<False_ex01.png, id=324, 1445.4pt x 697.10437pt>
-File: False_ex01.png Graphic file (type png)
-<use False_ex01.png>
-Package pdftex.def Info: False_ex01.png  used on input line 932.
-(pdftex.def)             Requested size: 546.29153pt x 263.46642pt.
-
-Overfull \hbox (91.04742pt too wide) in paragraph at lines 932--933
- [][] 
- []
-
+<regula_falsi_ex1.png, id=317, 1110.0672pt x 544.9158pt>
+File: regula_falsi_ex1.png Graphic file (type png)
+<use regula_falsi_ex1.png>
+Package pdftex.def Info: regula_falsi_ex1.png  used on input line 932.
+(pdftex.def)             Requested size: 409.71692pt x 201.11679pt.
 
 
 
@@ -1856,7 +1834,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[26 <./False_ex01.png (PNG copy)>]
+[26 <./regula_falsi_ex1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 939--940
 
  []
@@ -1867,62 +1845,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 941--945
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 941--945
+Underfull \hbox (badness 10000) in paragraph at lines 948--950
 
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 941--945
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 941--945
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 941--945
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 952--953
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 954--955
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 956--957
-
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 980--981
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 980--981
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 980--981
-
- []
-
-<false_ex1.png, id=331, 1445.4pt x 697.10437pt>
-File: false_ex1.png Graphic file (type png)
-<use false_ex1.png>
-Package pdftex.def Info: false_ex1.png  used on input line 987.
-(pdftex.def)             Requested size: 409.71692pt x 197.60248pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
@@ -1935,78 +1860,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [27]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[28 <./false_ex1.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 997--998
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 999--1005
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 999--1005
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 999--1005
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 999--1005
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 999--1005
-
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1030--1032
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1030--1032
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1030--1032
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1030--1032
-
- []
-
-<four_by_one_bisection.png, id=341, 1445.4pt x 697.10437pt>
-File: four_by_one_bisection.png Graphic file (type png)
-<use four_by_one_bisection.png>
-Package pdftex.def Info: four_by_one_bisection.png  used on input line 1035.
-(pdftex.def)             Requested size: 546.29153pt x 263.46642pt.
-
-Overfull \hbox (91.04742pt too wide) in paragraph at lines 1035--1036
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+<regula_falsi_ex2.png, id=329, 1110.0672pt x 544.9158pt>
+File: regula_falsi_ex2.png Graphic file (type png)
+<use regula_falsi_ex2.png>
+Package pdftex.def Info: regula_falsi_ex2.png  used on input line 1003.
+(pdftex.def)             Requested size: 409.71692pt x 201.11679pt.
 
 
 
@@ -2017,145 +1875,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29
-
-]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[30 <./four_by_one_bisection.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 1041--1042
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1043--1048
-
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1070--1072
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1070--1072
-
- []
-
-<one_by_four_nr.png, id=351, 1445.4pt x 697.10437pt>
-File: one_by_four_nr.png Graphic file (type png)
-<use one_by_four_nr.png>
-Package pdftex.def Info: one_by_four_nr.png  used on input line 1075.
-(pdftex.def)             Requested size: 546.29153pt x 263.46642pt.
-
-Overfull \hbox (91.04742pt too wide) in paragraph at lines 1075--1076
-[][] 
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[31
-
- <./one_by_four_nr.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 1084--1089
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1098--1121
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1098--1121
-
- []
-
-
-Overfull \hbox (11.54585pt too wide) in paragraph at lines 1098--1121
-\T1/ptm/m/n/18 Hence, the re-quired root is 3.13493 cor-rect to four dec-i-mal 
-places. 
- []
-
-<one_by_four_iterative.png, id=357, 1445.4pt x 697.10437pt>
-File: one_by_four_iterative.png Graphic file (type png)
-<use one_by_four_iterative.png>
-Package pdftex.def Info: one_by_four_iterative.png  used on input line 1125.
-(pdftex.def)             Requested size: 364.19667pt x 175.64783pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[32
-
- <./one_by_four_iterative.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 1132--1138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1144--1145
-
- []
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 1161--1162
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1161--1162
-
- []
-
-<four_by_one_false.png, id=364, 1445.4pt x 697.10437pt>
-File: four_by_one_false.png Graphic file (type png)
-<use four_by_one_false.png>
-Package pdftex.def Info: four_by_one_false.png  used on input line 1167.
-(pdftex.def)             Requested size: 455.24411pt x 219.55713pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[33 <./four_by_one_false.png (PNG copy)>]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[34]
-Overfull \hbox (33.45085pt too wide) in paragraph at lines 1205--1206
+[28 <./regula_falsi_ex2.png>]
+Overfull \hbox (33.45085pt too wide) in paragraph at lines 1019--1020
 \T1/ptm/m/n/18 In con-clu-sion, the nu-mer-i-cal meth-ods dis-cussed^^VBisectio
 n Method,
  []
@@ -2170,14 +1891,151 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[35
+[29] (E:\Miktex\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/05/25 1.10b listings language file
+)
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 10
+47.
 
-]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 12
-23.
- (E:\Miktex\tex/latex/psnfss\t1pcr.fd
+(E:\Miktex\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <18> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 1048.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34]
+Overfull \hbox (160.35606pt too wide) in paragraph at lines 1273--1273
+[]  \T1/pcr/m/n/18 % Iterative Method for Root Finding with Graph Plotting[] 
+ []
+
+
+Overfull \hbox (322.35611pt too wide) in paragraph at lines 1273--1273
+[]  \T1/pcr/m/n/18 f = @(x) x.^3 - 2*x.^2 - 4;  % Example equation: f(x) = x^3 
+- 2x^2 - 4[] 
+ []
+
+
+Overfull \hbox (160.35606pt too wide) in paragraph at lines 1273--1273
+[]  \T1/pcr/m/n/18 g = @(x) sqrt(2*x^2 + 4);      % Rearranged to x = g(x)[] 
+ []
+
+
+Overfull \hbox (268.3561pt too wide) in paragraph at lines 1273--1273
+[]  \T1/pcr/m/n/18 x0 = 3;                         % Starting point, can be adj
+usted[] 
+ []
+
+
+Overfull \hbox (73.95604pt too wide) in paragraph at lines 1273--1273
+[]  \T1/pcr/m/n/18 x1 = g(x0);  % Update x using iterative formula[] 
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35]
+Overfull \hbox (73.95604pt too wide) in paragraph at lines 1273--1273
+[]  \T1/pcr/m/n/18 fprintf('The root is approximately: %f\n', x1);[] 
+ []
+
+
+Overfull \hbox (257.55609pt too wide) in paragraph at lines 1273--1273
+[]  \T1/pcr/m/n/18 x_vals = linspace(1, 4, 1000);  % Range around the expected 
+root[] 
+ []
+
+
+Overfull \hbox (19.95602pt too wide) in paragraph at lines 1273--1273
+[]  \T1/pcr/m/n/18 plot(x_vals, y_vals, 'b', 'LineWidth', 2);[] 
+ []
+
+
+Overfull \hbox (462.75615pt too wide) in paragraph at lines 1273--1273
+[]  \T1/pcr/m/n/18 plot(root_vals(i), f(root_vals(i)), 'ro', 'MarkerSize', 8, '
+MarkerFaceColor', 'r');[] 
+ []
+
+
+Overfull \hbox (365.55612pt too wide) in paragraph at lines 1273--1273
+[]  \T1/pcr/m/n/18 text(root_vals(i), f(root_vals(i)), sprintf(' Iter %d', iter
+_vals(i)), ...[] 
+ []
+
+
+Overfull \hbox (246.75609pt too wide) in paragraph at lines 1273--1273
+[]  \T1/pcr/m/n/18 'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right
+');[] 
+ []
+
+
+Overfull \hbox (279.1561pt too wide) in paragraph at lines 1273--1273
+[]  \T1/pcr/m/n/18 plot(x_vals, zeros(size(x_vals)), 'k--', 'LineWidth', 1); % 
+x-axis[] 
+ []
+
+
+Overfull \hbox (214.35608pt too wide) in paragraph at lines 1345--1345
+[]  \T1/pcr/m/n/18 % False Position Method for Root Finding with Graph Plotting
+[] 
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2188,39 +2046,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [36]
-Overfull \hbox (44.07529pt too wide) in paragraph at lines 1304--1304
-[]\T1/pcr/m/n/10.95 plot(root_vals(i), f(root_vals(i)), 'o', 'MarkerSize', 8, '
-MarkerFaceColor',[] 
+Overfull \hbox (322.35611pt too wide) in paragraph at lines 1345--1345
+[]  \T1/pcr/m/n/18 f = @(x) x.^3 - 2*x.^2 - 4;  % Example equation: f(x) = x^3 
+- 2x^2 - 4[] 
  []
 
 
-Overfull \hbox (4.65533pt too wide) in paragraph at lines 1304--1304
-[]\T1/pcr/m/n/10.95 text(root_vals(i), f(root_vals(i)), sprintf(' Iter %d', ite
-r_vals(i)),[] 
+Overfull \hbox (41.55603pt too wide) in paragraph at lines 1345--1345
+[]  \T1/pcr/m/n/18 % Arrays to store iteration values and roots[] 
  []
 
 
-Overfull \hbox (17.79532pt too wide) in paragraph at lines 1304--1304
-[] \T1/pcr/m/n/10.95 'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'rig
-ht', 'Color',[] 
+Overfull \hbox (138.75606pt too wide) in paragraph at lines 1345--1345
+[]  \T1/pcr/m/n/18 % Calculate the root using the False Position formula[] 
  []
 
 
-Overfull \hbox (24.36531pt too wide) in paragraph at lines 1304--1304
-[]\T1/pcr/m/n/10.95 legend_labels{i} = sprintf('Iter %d (%.5f)', iter_vals(i), 
-root_vals(i));[] 
+Overfull \hbox (9.15602pt too wide) in paragraph at lines 1345--1345
+[]  \T1/pcr/m/n/18 c = b - (f(b) * (a - b)) / (f(a) - f(b));[] 
  []
 
 
-Overfull \hbox (24.36531pt too wide) in paragraph at lines 1384--1384
-[]\T1/pcr/m/n/10.95 % Newton-Raphson Method with Graph Plotting, Unique Iterati
-on Colors, and[] 
+Overfull \hbox (52.35603pt too wide) in paragraph at lines 1345--1345
+[]  \T1/pcr/m/n/18 b = c;  % The root is in the left subinterval[] 
  []
 
 
-Overfull \hbox (24.36531pt too wide) in paragraph at lines 1384--1384
-[]\T1/pcr/m/n/10.95 f = @(x) 2*x.^3 - 3*x - 6;        % Example equation: f(x) 
-= x^3 - 3x - 5[] 
+Overfull \hbox (63.15604pt too wide) in paragraph at lines 1345--1345
+[]  \T1/pcr/m/n/18 a = c;  % The root is in the right subinterval[] 
  []
 
 
@@ -2234,95 +2087,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [37]
-Overfull \hbox (4.65533pt too wide) in paragraph at lines 1384--1384
-[]\T1/pcr/m/n/10.95 x_vals = linspace(x1 - 2, x1 + 2, 1000); % Range around the
- found root[] 
+Overfull \hbox (63.15604pt too wide) in paragraph at lines 1345--1345
+[]  \T1/pcr/m/n/18 fprintf('The root is approximately: %f\n', c);[] 
  []
 
 
-Overfull \hbox (44.07529pt too wide) in paragraph at lines 1384--1384
-[]\T1/pcr/m/n/10.95 plot(root_vals(i), f(root_vals(i)), 'o', 'MarkerSize', 8, '
-MarkerFaceColor',[] 
+Overfull \hbox (257.55609pt too wide) in paragraph at lines 1345--1345
+[]  \T1/pcr/m/n/18 x_vals = linspace(1, 4, 1000);  % Range around the expected 
+root[] 
  []
 
 
-Overfull \hbox (4.65533pt too wide) in paragraph at lines 1384--1384
-[]\T1/pcr/m/n/10.95 text(root_vals(i), f(root_vals(i)), sprintf(' Iter %d', ite
-r_vals(i)),[] 
+Overfull \hbox (19.95602pt too wide) in paragraph at lines 1345--1345
+[]  \T1/pcr/m/n/18 plot(x_vals, y_vals, 'b', 'LineWidth', 2);[] 
  []
 
 
-Overfull \hbox (17.79532pt too wide) in paragraph at lines 1384--1384
-[] \T1/pcr/m/n/10.95 'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'rig
-ht', 'Color',[] 
+Overfull \hbox (192.75607pt too wide) in paragraph at lines 1345--1345
+[]  \T1/pcr/m/n/18 plot(root_vals(i), f(root_vals(i)), 'ro', 'MarkerSize', 8,[]
+ 
  []
 
 
-Overfull \hbox (24.36531pt too wide) in paragraph at lines 1384--1384
-[]\T1/pcr/m/n/10.95 legend_labels{i} = sprintf('Iter %d (%.5f)', iter_vals(i), 
-root_vals(i));[] 
+Overfull \hbox (365.55612pt too wide) in paragraph at lines 1345--1345
+[]  \T1/pcr/m/n/18 text(root_vals(i), f(root_vals(i)), sprintf(' Iter %d', iter
+_vals(i)), ...[] 
  []
 
 
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[38]
-Overfull \hbox (24.36531pt too wide) in paragraph at lines 1467--1467
-[]\T1/pcr/m/n/10.95 % Iterative Method for Root Finding with Graph Plotting, Un
-ique Iteration[] 
+Overfull \hbox (246.75609pt too wide) in paragraph at lines 1345--1345
+[]  \T1/pcr/m/n/18 'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right
+');[] 
  []
 
 
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[39]
-Overfull \hbox (44.07529pt too wide) in paragraph at lines 1467--1467
-[]\T1/pcr/m/n/10.95 plot(root_vals(i), f(root_vals(i)), 'o', 'MarkerSize', 8, '
-MarkerFaceColor',[] 
+Overfull \hbox (279.1561pt too wide) in paragraph at lines 1345--1345
+[]  \T1/pcr/m/n/18 plot(x_vals, zeros(size(x_vals)), 'k--', 'LineWidth', 1); % 
+x-axis[] 
  []
 
 
-Overfull \hbox (30.9353pt too wide) in paragraph at lines 1467--1467
-[]\T1/pcr/m/n/10.95 text(root_vals(i), f(root_vals(i)), sprintf(' Iter %d', ite
-r_vals(i)), ...[] 
- []
-
-
-Overfull \hbox (11.22533pt too wide) in paragraph at lines 1467--1467
-[]\T1/pcr/m/n/10.95 'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'righ
-t', 'Color',[] 
- []
-
-
-Overfull \hbox (24.36531pt too wide) in paragraph at lines 1467--1467
-[]\T1/pcr/m/n/10.95 legend_labels{i} = sprintf('Iter %d (%.5f)', iter_vals(i), 
-root_vals(i));[] 
- []
-
-
-Overfull \hbox (57.21527pt too wide) in paragraph at lines 1555--1555
-[]\T1/pcr/m/n/10.95 % False Position Method for Root Finding with Graph Plottin
-g, Unique Iteration[] 
- []
-
-
-Overfull \hbox (11.22533pt too wide) in paragraph at lines 1555--1555
-[]\T1/pcr/m/n/10.95 f = @(x) 2*x.^3 - 3*x - 6;  % Example equation: f(x) = x^3 
-- 5x + 3 = 0[] 
+Overfull \hbox (41.55603pt too wide) in paragraph at lines 1345--1345
+[]  \T1/pcr/m/n/18 title('False Position Method Root Finding');[] 
  []
 
 
@@ -2335,63 +2141,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40]
-Overfull \hbox (109.7752pt too wide) in paragraph at lines 1555--1555
-[]\T1/pcr/m/n/10.95 %fprintf("Iteration %.f, a %.5f , b %.5f ,x  %.5f , f(x) %.
-5f\n ",iter, a, b, c, f(c))[] 
- []
-
-
-Overfull \hbox (63.78526pt too wide) in paragraph at lines 1555--1555
-[]\T1/pcr/m/n/10.95 fprintf("Iteration %.f, a %.5f , b %.5f ,x  %.5f , f(x) %.5
-f\n ",iter, a, b, c,[] 
- []
-
-
-Overfull \hbox (44.07529pt too wide) in paragraph at lines 1555--1555
-[]\T1/pcr/m/n/10.95 plot(root_vals(i), f(root_vals(i)), 'o', 'MarkerSize', 8, '
-MarkerFaceColor',[] 
- []
-
-
-Overfull \hbox (30.9353pt too wide) in paragraph at lines 1555--1555
-[]\T1/pcr/m/n/10.95 text(root_vals(i), f(root_vals(i)), sprintf(' Iter %d', ite
-r_vals(i)), ...[] 
- []
-
-
-Overfull \hbox (11.22533pt too wide) in paragraph at lines 1555--1555
-[]\T1/pcr/m/n/10.95 'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'righ
-t', 'Color',[] 
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[41]
-Overfull \hbox (24.36531pt too wide) in paragraph at lines 1555--1555
-[]\T1/pcr/m/n/10.95 legend_labels{i} = sprintf('Iter %d (%.5f)', iter_vals(i), 
-root_vals(i));[] 
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[42] (assign.aux)
+[38] (experiment.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -2400,27 +2150,28 @@ L3 programming layer <2024-08-30>
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `assign.out' has not changed.
-(rerunfilecheck)             Checksum: C9AF4D52F5599AD79A808FC3335865CE;4787.
+Package rerunfilecheck Info: File `experiment.out' has not changed.
+(rerunfilecheck)             Checksum: 53B0707F9AF2A6800324E0D60E5623FC;4443.
  ) 
 Here is how much of TeX's memory you used:
- 12131 strings out of 473899
- 182827 string characters out of 5742924
- 675660 words of memory out of 5000000
- 34691 multiletter control sequences out of 15000+600000
- 640986 words of font info for 178 fonts, out of 8000000 for 9000
+ 14515 strings out of 473899
+ 213203 string characters out of 5742924
+ 1079292 words of memory out of 5000000
+ 36933 multiletter control sequences out of 15000+600000
+ 640700 words of font info for 181 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,12n,93p,836b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,12n,93p,841b,2540s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <E:/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Miktex/fonts/type1/p
 ublic/amsfonts/cm/cmr10.pfb><E:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><E:/Miktex/fonts/type1/public/amsfonts/symbols/msam10.pfb><E:/Miktex/fonts/ty
-pe1/urw/courier/ucrr8a.pfb><E:/Miktex/fonts/type1/urw/symbol/usyr.pfb><E:/Mikte
-x/fonts/type1/urw/symbol/usyr.pfb><E:/Miktex/fonts/type1/urw/times/utmb8a.pfb><
-E:/Miktex/fonts/type1/urw/times/utmbi8a.pfb><E:/Miktex/fonts/type1/urw/times/ut
-mr8a.pfb><E:/Miktex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on assign.pdf (47 pages, 844535 bytes).
+pe1/urw/courier/ucrb8a.pfb><E:/Miktex/fonts/type1/urw/courier/ucrr8a.pfb><E:/Mi
+ktex/fonts/type1/urw/courier/ucrro8a.pfb><E:/Miktex/fonts/type1/urw/symbol/usyr
+.pfb><E:/Miktex/fonts/type1/urw/symbol/usyr.pfb><E:/Miktex/fonts/type1/urw/time
+s/utmb8a.pfb><E:/Miktex/fonts/type1/urw/times/utmbi8a.pfb><E:/Miktex/fonts/type
+1/urw/times/utmr8a.pfb><E:/Miktex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on experiment.pdf (43 pages, 641183 bytes).
 PDF statistics:
- 481 PDF objects out of 1000 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
- 335 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 621 PDF objects out of 1000 (max. 8388607)
+ 219 named destinations out of 1000 (max. 500000)
+ 299 words of extra memory for PDF output out of 10000 (max. 10000000)
 

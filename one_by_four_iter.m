@@ -6,7 +6,7 @@ clear;
 f = @(x) 2*x.^3 - 3*x - 6;  % Example equation: f(x) = x^3 - 2x^2 - 4
 
 % Define the iterative function g(x)
-g = @(x) (2*(3*x+6)).^(1/3);      % Rearranged to x = g(x)
+g = @(x) ((3*x+6)/2)^(1/3);      % Rearranged to x = g(x)
 
 % Initial guess
 x0 = 2;                         % Starting point, can be adjusted

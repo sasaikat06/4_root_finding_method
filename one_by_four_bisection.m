@@ -1,4 +1,3 @@
-% Bisection Method with Graph Plotting, Unique Iteration Colors, and Value-Based Legend
 clc;
 clear;
 
@@ -49,12 +48,14 @@ fprintf('The root is approximately: %.5f\n', c);
 x_vals = linspace(a-1, b+1, 1000);
 y_vals = f(x_vals);
 figure;
-plot(x_vals, y_vals, 'b', 'LineWidth', 2);
+h_func = plot(x_vals, y_vals, 'b', 'LineWidth', 2); % Plot the function curve
 hold on;
 
 % Mark the iterations on the graph with unique colors
+plot_handles = [h_func]; % Start by adding the function handle
 for i = 1:length(root_vals)
-    plot(root_vals(i), f(root_vals(i)), 'o', 'MarkerSize', 8, 'MarkerFaceColor', color_map(i, :));
+    h = plot(root_vals(i), f(root_vals(i)), 'o', 'MarkerSize', 8, 'MarkerFaceColor', color_map(i, :));
+    plot_handles = [plot_handles, h]; % Add iteration handles for the legend
     text(root_vals(i), f(root_vals(i)), sprintf(' Iter %d', iter_vals(i)), 'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right', 'Color', color_map(i, :));
 end
 
@@ -66,10 +67,11 @@ title('Bisection Method Root Finding');
 grid on;
 
 % Create a legend with values and corresponding colors
-legend_labels = cell(1, length(root_vals));
+legend_labels = cell(1, length(root_vals) + 1);
+legend_labels{1} = 'f(x) Curve'; % Label for the function curve
 for i = 1:length(root_vals)
-    legend_labels{i} = sprintf('Iter %d (%.5f)', iter_vals(i), root_vals(i));
+     legend_labels{i + 1} = sprintf('Iter %d (%.5f)', iter_vals(i), root_vals(i));
 end
-legend(legend_labels, 'Location', 'northwest');
+legend(plot_handles, legend_labels, 'Location', 'northwest'); % Use the collected handles for legend
 
 hold off;

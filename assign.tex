@@ -70,8 +70,8 @@
 	
 	\newpage
 	\begin{center}	
-		\textbf{\Huge{Submitted to}}\\ 
 		\vspace{0.4cm}
+		\textbf{\Huge{Submitted to}}\\ 
 		Dr. Md. Abdullah Al Mahbub\\
 		Professor\\
 		Department of Mathematics\\
@@ -120,7 +120,7 @@
 
 \vspace{2cm}
 
- \hspace{8cm} \LARGE\textbf{\textit{Submission Date:}} 22.10.2024
+ \hspace{8cm} \LARGE\textbf{\textit{Submission Date:}} \date{}
 	
 	\newpage
 	
@@ -1092,7 +1092,7 @@
 
 	$\implies2x^3=3x+6$
 	
-	$\therefore x = {2(3x+6)}^\frac{1}{3} = \phi(x)$
+	$\therefore x = \sqrt[3]{\frac{3x+6}{2}} = \phi(x)$
 	
 	
 	Taking $x_0=0$ the relation gives the following table,\\
@@ -1100,24 +1100,24 @@
 		\hline
 		Iteration & $x_n$ & $\phi(x_n)$ \\
 		\hline
-		1 & 2 & 2.88450 \\
+		1 & 2 & 1.81712 \\
 		\hline
-		2 & 2.88450 & 3.08312 \\
+		2 & 1.81712 & 1.78899 \\
 		\hline
-		3 & 3.08312 & 3.12436 \\
+		3 & 1.78899 & 1.78459 \\
 		\hline
-		4 & 3.12436 & 3.13278 \\
+		4 & 1.78459 & 1.78390 \\
 		\hline
-		5 & 3.13278 & 3.13450 \\
+		5 & 1.78390 & 1.78379 \\
 		\hline
-		6 & 3.13450 & 3.13485 \\
+		6 & 1.78379 & 1.78377 \\
 		\hline
-		7 & 3.13485 & 3.13492 \\
-		\hline
-		8 & 3.13492 & 3.13493 \\
+		7 & 1.78377 & 1.78377 \\
+		
 		\hline
 	\end{tabularx}\\
 	\\\\Hence, the required root is 3.13493 correct to four decimal places.
+	
 	
 	
 	\begin{figure}[h]
@@ -1184,7 +1184,8 @@
 				Requirement for Derivative & No & Yes & No & No \\
 				Accuracy & Moderate & High & Moderate & Moderate \\
 				Robustness & High & Low & Moderate & Moderate \\
-				Number of Iterations & 20 & 5 & 15 & 10 \\
+				Result & 1.78418 & 1.783769 & 1.78377 & 1.78372 \\
+				Number of Iterations & 10 & 6 & 7 & 5 \\
 				
 			\end{tabular}
 			\caption{Comparison of Numerical Methods}
